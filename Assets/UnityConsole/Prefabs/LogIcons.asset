@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74eb969697264c71932621eeb9be2000, type: 3}
+  m_Name: LogIcons
+  m_EditorClassIdentifier: 
+  infoActive: {fileID: 21300000, guid: 83fa3d4da087d194ebeae39ff358c83f, type: 3}
+  infoInactive: {fileID: 21300000, guid: b27da6001f7cda649aa295450363de91, type: 3}
+  warningActive: {fileID: 21300000, guid: aa0143485e001644e85051c973477019, type: 3}
+  warningInactive: {fileID: 21300000, guid: a5756e4266dd08642ac7e6f1acf31f8e, type: 3}
+  errorActive: {fileID: 21300000, guid: 398534aab7e2b544c9ce2dba9c272134, type: 3}
+  errorInactive: {fileID: 21300000, guid: 7fcb133f576116349a5ce22c088ce020, type: 3}
