@@ -11,5 +11,9 @@
 2. Create package from `Assets/UnityConsole`
 3. Make steps from *.unitypackage* section
 
+### Usage
+Place `Console.prefab` in your scene. No aditional steps needed. 
+
 ### Note
-Please keep Console folder just under Assets/
+1. Please keep Console folder just under `Assets/`;
+2. Console does not appear in `Release` builds;
