@@ -17,3 +17,4 @@ Place `Console.prefab` in your scene. No aditional steps needed.
 ### Note
 1. Please keep Console folder just under `Assets/`;
 2. Console does not appear in `Release` builds;
+3. **TextMeshPro** reqiered for this console;
