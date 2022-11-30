@@ -1,6 +1,4 @@
-# UnityConsole
-
-> DISCLAIMER: This is not an official product provided by Unity Technologies Inc.
+# BetterRuntimeConsole
 
 ## Instalation
 ### From .unitypackage
