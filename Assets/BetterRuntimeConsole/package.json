@@ -9,7 +9,7 @@
     "url": "https://github.com/uurha"
   },
   "dependencies": {
-    "com.uurha.betterextensions": "0.1.4"
+    "com.uurha.betterextensions": "0.1.5"
   },
   "changelogUrl": "https://github.com/uurha/BetterRuntimeConsole",
   "documentationUrl": "https://github.com/uurha/BetterRuntimeConsole/tree/main#readme",
