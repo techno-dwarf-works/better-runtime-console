@@ -5,7 +5,8 @@
 This package provides possibility to see logs from console inside scene in build or playmode view.
 
 ## Usage
-Toolbar -> Better -> Runtime Console -> Add to active scene
+Toolbar -> Better -> Runtime Console -> Add to ...
+
 No any further action needed.
 
 ## Install
