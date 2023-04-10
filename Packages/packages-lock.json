@@ -98,8 +98,15 @@
         "com.unity.modules.imgui": "1.0.0"
       }
     },
+    "com.uurha.betterdatastructures": {
+      "version": "0.1.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://package.openupm.com"
+    },
     "com.uurha.betterextensions": {
-      "version": "0.1.3",
+      "version": "1.0.1",
       "depth": 0,
       "source": "registry",
       "dependencies": {},
