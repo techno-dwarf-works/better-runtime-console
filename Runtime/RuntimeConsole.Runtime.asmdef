@@ -3,7 +3,8 @@
     "rootNamespace": "Better.RuntimeConsole",
     "references": [
         "GUID:6055be8ebefd69e48b49212b09b47b2f",
-        "GUID:28da8d3b12e3efa47928e0c9070f853d"
+        "GUID:28da8d3b12e3efa47928e0c9070f853d",
+        "GUID:443314a5a4e67c14a88ae223776b6554"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

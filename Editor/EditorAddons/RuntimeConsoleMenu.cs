@@ -10,19 +10,19 @@ namespace Better.RuntimeConsole.EditorAddons
     {
         private const string PrefabGuid = "a5e16754ea9e075458a77e79b6c2b72d";
 
-        [MenuItem("Better/Runtime Console/Add to Overlay")]
+        [MenuItem(BetterInternalTools.MenuItemPrefix + "/Add to Overlay")]
         public static void AddOverlayConsoleToActiveScene()
         {
             InstantiateConsoleToScene(RenderMode.ScreenSpaceOverlay);
         }
-        
-        [MenuItem("Better/Runtime Console/Add to Camera Space")]
+
+        [MenuItem(BetterInternalTools.MenuItemPrefix + "/Add to Camera Space")]
         public static void AddCameraConsoleToActiveScene()
         {
             InstantiateConsoleToScene(RenderMode.ScreenSpaceCamera);
         }
-        
-        [MenuItem("Better/Runtime Console/Add to World Space")]
+
+        [MenuItem(BetterInternalTools.MenuItemPrefix + "/Add to World Space")]
         public static void AddWorldSpaceConsoleToActiveScene()
         {
             InstantiateConsoleToScene(RenderMode.WorldSpace);
@@ -36,14 +36,14 @@ namespace Better.RuntimeConsole.EditorAddons
             var instance = PrefabUtility.InstantiatePrefab(prefab, activeScene) as ConsoleInitializer;
             var canvas = instance.GetComponentInChildren<Canvas>();
             canvas.renderMode = canvasRenderMode;
-            if (canvasRenderMode == RenderMode.WorldSpace || canvasRenderMode == RenderMode.ScreenSpaceCamera) 
+            if (canvasRenderMode == RenderMode.WorldSpace || canvasRenderMode == RenderMode.ScreenSpaceCamera)
             {
                 var camera = Camera.main;
                 if (camera == null)
                 {
                     EditorUtility.DisplayDialog("Warning",
                         "No main camera in scene. Please set camera as event camera.", "Ok");
-                    
+
                     EditorGUIUtility.PingObject(canvas);
                 }
                 else
@@ -54,6 +54,5 @@ namespace Better.RuntimeConsole.EditorAddons
 
             EditorSceneManager.MarkSceneDirty(activeScene);
         }
-        
     }
 }
