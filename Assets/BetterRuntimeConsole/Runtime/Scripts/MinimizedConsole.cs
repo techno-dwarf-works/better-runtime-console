@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using Better.Extensions.Runtime;
 using Better.RuntimeConsole.Runtime.ConsoleElements;
-using Better.RuntimeConsole.Runtime.Extensions;
 using UnityEngine;
 using UnityEngine.EventSystems;
 

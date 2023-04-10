@@ -2,7 +2,6 @@
 using System.Globalization;
 using System.Text.RegularExpressions;
 using Better.Extensions.Runtime;
-using Better.RuntimeConsole.Runtime.Extensions;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
