@@ -10,4 +10,4 @@ Toolbar -> Better -> Runtime Console -> Add to ...
 No any further action needed.
 
 ## Install
-[How to istall](https://github.com/uurha/BetterPluginCollection/wiki/How-to-install)
+[How to install](https://github.com/uurha/BetterPluginCollection/wiki/How-to-install)
