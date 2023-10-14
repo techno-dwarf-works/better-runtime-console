@@ -1,21 +1,21 @@
 {
   "name": "com.uurha.betterruntimeconsole",
   "displayName": "Runtime Console",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "unity": "2018.3",
   "description": "Runtime console, supports any unity logs from any thread",
   "author": {
-    "name": "Arcueid D'athemon",
-    "url": "https://github.com/uurha"
+    "name": "Better Plugins",
+    "url": "https://github.com/techno-dwarf-works"
   },
   "dependencies": {
     "com.uurha.betterextensions": "1.0.1",
     "com.uurha.betterdatastructures": "0.1.0"
   },
-  "changelogUrl": "https://github.com/uurha/BetterRuntimeConsole",
-  "documentationUrl": "https://github.com/uurha/BetterRuntimeConsole/tree/main#readme",
+  "changelogUrl": "https://github.com/techno-dwarf-works/better-runtime-console",
+  "documentationUrl": "https://github.com/techno-dwarf-works/better-runtime-console/tree/main#readme",
   "license": "MIT",
-  "licensesUrl": "https://github.com/uurha/BetterRuntimeConsole/blob/main/LICENSE",
+  "licensesUrl": "https://github.com/techno-dwarf-works/better-runtime-console/blob/main/LICENSE",
   "keywords": [
     "console",
     "logging",
