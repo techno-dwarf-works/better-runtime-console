@@ -1,5 +1,8 @@
 # Runtime Console
 
+> [!CAUTION]
+> Package temporarily deprecated pending further development.
+
 [![openupm](https://img.shields.io/npm/v/com.uurha.betterruntimeconsole?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.uurha.betterruntimeconsole/)
 
 This package provides possibility to see logs from console inside scene in build or playmode view.
